@@ -39,6 +39,19 @@ function addItem(e) {
                     </button>
                 </div>`;
     list.appendChild(element);
+    displayAlert("Başarıyla eklendi.", "success")
     grocery.value = "";
   }
+}
+
+//alert function
+
+function displayAlert(text, action){
+  alert.textContent = text;
+  alert.classList.add(`alert-${action}`);
+  
+  setTimeout(function(){
+alert.textContent = text;
+alert.classList.remove(`alert-${action}`)
+  },2000)
 }
