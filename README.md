@@ -27,7 +27,7 @@ This simple To-Do List application allows users to organize their daily tasks by
 This application has a simple and user-friendly design. The light blue tones and clean white background are arranged for user convenience.
 
 ---
-
+![](image/to-do-list.gif)
 ## Technologies and Libraries Used
 
 - HTML
