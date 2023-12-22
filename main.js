@@ -51,7 +51,7 @@ function addItem(e) {
 
     list.appendChild(element);
     // alert
-    displayAlert("Başarıyla Eklendi", "success");
+    displayAlert("Added successfully!", "success");
     // show container
     container.classList.add("show-container");
     // localStorage ekleme
